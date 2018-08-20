@@ -1,4 +1,4 @@
-package com.avishayil.rnrestart;
+package no.nyby.rnrestart;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -22,7 +22,7 @@ public class ReactNativeRestartPackage implements ReactPackage {
         modules.add(new ReactNativeRestart(reactContext));
         return modules;
     }
-    
+
     // Deprecated RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();

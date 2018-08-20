@@ -1,4 +1,4 @@
-package com.avishayil.rnrestart;
+package no.nyby.rnrestart;
 
 import android.app.Activity;
 import android.os.Handler;

@@ -14,11 +14,11 @@
     "restart"
   ],
   "bugs": {
-    "url": "https://github.com/avishayil/react-native-restart/issues"
+    "url": "https://github.com/nyby/react-native-restart/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://git@github.com:avishayil/react-native-restart.git"
+    "url": "git://git@github.com:nyby/react-native-restart.git"
   },
   "author": "Avishay Bar <http://www.geektime.co.il>",
   "license": "MIT"
