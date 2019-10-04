@@ -4,7 +4,7 @@ package = JSON.parse(File.read(File.join(__dir__, "../package.json")))
 
 Pod::Spec.new do |s|
   s.name         = "RCTRestart"
-  s.version      = version
+  s.version      = package["version"]
   s.summary      = "react-native-restart"
   s.description  = <<-DESC
                   Restart React-Native applications
