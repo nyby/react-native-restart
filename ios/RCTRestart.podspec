@@ -1,9 +1,6 @@
 require "json"
 
 package = JSON.parse(File.read(File.join(__dir__, "../package.json")))
-version = package["version"]
-giturl = package["repository"]["url"]
-bugsurl = package["bugs"]["url"]
 
 Pod::Spec.new do |s|
   s.name         = "RCTRestart"
@@ -12,12 +9,12 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   Restart React-Native applications
                    DESC
-  s.homepage     = giturl
+  s.homepage     = package["homepage"]
   s.license      = "MIT"
   # s.license    = { :type => "MIT" }
-  s.author       = { "Avishay Bar" => "http://www.geektime.co.il" }
+  s.author       = package["author"]
   s.platform     = :ios, "8.0"
-  s.source       = { :git => giturl, :tag => version }
+  s.source       = { :git => "https://github.com/nyby/react-native-restart.git", :tag => "master" }
   s.source_files  = "RCTRestart/*.{h,m}"
   s.requires_arc = true
 
