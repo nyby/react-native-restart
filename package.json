@@ -13,6 +13,7 @@
     "android",
     "restart"
   ],
+  "homepage": "https://github.com/nyby/react-native-restart",
   "bugs": {
     "url": "https://github.com/nyby/react-native-restart/issues"
   },
